@@ -51,7 +51,8 @@ spec:
     username: admin
     password: admin
     email: admin@ferriskey.fr
-    allowedOrigins: "http://localhost:3000"
+    allowed_origins:
+     - "http://localhost:3000"
   postgres:
     image: ghcr.io/cloudnative-pg/postgresql:16
     storage: 5Gi
